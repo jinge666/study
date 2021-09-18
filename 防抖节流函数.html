@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+    <li>测试</li>
+  </ul>
+  <script>
+    // 防抖函数：如果短时间内大量触发同一事件，只会执行一次函数
+    function debounce(fun,wait) {
+      let timeout;
+      return function () {
+        clearTimeout(timeout)
+        timeout = setTimeout(fun,wait)
+      }
+    }
+    function scrollTest() {
+      console.log('我正在滚动！')
+    }
+    // window.addEventListener('scroll',debounce(scrollTest,500))
+    // 节流函数：在规定一段时间内，至少执行一次
+    function throttle (fun,wait,mustRun) {
+      let startTime = new Date();
+      let timeOut
+      return function() {
+        let context = this
+        let args = arguments
+        let currentTime = new Date();
+        clearTimeout(timeOut)
+        if(currentTime - startTime >= mustRun){
+          fun.apply(context,args)
+          startTime = currentTime
+        }else{
+          timeOut = setTimeout(fun,wait)
+        }
+      }
+    }
+    window.addEventListener('scroll',throttle(scrollTest,500,1000))
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .test{
+      font-size: 16px;
+    }
+    @media screen and (max-width: 960px){
+      body{
+        background-color:#FF6699
+      }
+    } 
+    @media screen and (max-width: 768px){
+        body{
+          background-color:#00FF66;
+        }
+    }
+    @media screen and (max-width: 550px){
+        body{
+          background-color:#6633FF;
+        }
+    }
+    @media screen and (max-width: 320px){
+        body{
+          background-color:#FFFF00;
+        }
+    }
+    /* @media screen and (min-width: 800px){
+      body{
+        background-color: aquamarine;
+      }
+    } */
+    /* 三角形 */
+    .triangle{
+      width:0;
+      height: 0;
+      /* border-top: 100px solid red; */
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid red;
+      /* border-left: 100px solid red;
+      border-top: 100px solid transparent;
+      border-bottom: 100px solid transparent; */
+    }
+  </style>
+</head>
+<body>
+  <p class="test">我是一段用来测试的话</p>
+  <div class="triangle"></div>
+</body>
+</html>
