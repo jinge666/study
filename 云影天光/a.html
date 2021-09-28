@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .contant{
+      width: 518px;
+      height: 454px;
+      background-color: #fff;
+      margin: 50px 300px;
+      border: 1px solid black;
+      font-size: 20px;
+      overflow: scroll;
+    }
+    /* .img{
+      position: absolute;
+      width: 518px;
+      height: 405px;
+      left: 300px;
+      top: 100px;
+    } */
+    /* #text{
+      font-size: 20px;
+    } */
+    .control{
+      height: 30px;
+      width: 400px;
+      position: absolute;
+      top: 506px;
+      left: 490px;
+    }
+    .control span{
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contant" id="Msg" contentEditable="true" placeholder="请输入文字">
+    <!-- <textarea name="输入框" id="text" cols="50" rows="20" placeholder="请输入文字"></textarea> -->
+    <!-- <img src="./img/1.jpg" alt="" class="img"> -->
+  </div>
+  <div class="control">
+    <span>颜色：<input type="color" id="text-color"></span>
+    <span><button id="botton" name="添加下划线" value="添加下划线">添加下划线</button></span>
+    <span><button id="bold">文字加粗</button></span>
+    <!-- <span><button id="insert">插入图片</button></span> -->
+  </div>
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/clipboard.min.js"></script>
+  <script>
+    var Msg = document.getElementById('Msg')
+    var text_color = document.getElementById('text-color')
+    var botton = document.getElementById('botton')
+    var bold = document.getElementById('bold')
+    var insert = document.getElementById('insert')
+    var img = document.querySelector('.img')
+    var judge = true
+    var judge2 = true
+    var judge3 = false
+
+    // 改变文字颜色
+    text_color.onchange = function(){
+      Msg.style.color = text_color.value
+    }
+    // 加下划线
+    botton.onclick = function(){
+      if(judge){
+        Msg.style.textDecoration = 'underline'
+      }else{
+        Msg.style.textDecoration = 'none'
+      }
+      judge = !judge
+      console.log(judge)
+    }
+    // 加粗字体
+    bold.onclick = function(){
+      if(judge2){
+        Msg.style.fontWeight = 'bold'
+      }else{
+        Msg.style.fontWeight = 'normal'
+      }
+      judge2 = !judge2
+    }
+
+    // 插入图片
+    // insert.onclick = function(){
+    //   if(!judge3){
+    //     img.style.display = 'block'
+    //   }else{
+    //     img.style.display = 'none'
+    //   }
+    //   judge3 = !judge3
+    // }
+
+// 粘贴功能是网上找的https://blog.csdn.net/weixin_45285641/article/details/103889501
+    // 上传图片
+    document.getElementById('Msg').addEventListener('paste', function (e) {
+     if (!(e.clipboardData && e.clipboardData.items)) {
+       return;
+     }
+     for (var i = 0, len = e.clipboardData.items.length; i < len; i++) {
+       var item = e.clipboardData.items[i];
+       console.log(item);
+       if (item.kind === "string") {
+         item.getAsString(function (str) {
+           console.log(str);
+           layer.msg("请粘贴图片上传", {
+             icon: 2,
+             shade: [0.3, '#000'],
+             offset: '15px',
+             time: 1000
+           })
+         })
+         $("#Msg").html(""); //jQuery方法一
+       } else if (item.kind === "file") {
+         var blob = item.getAsFile();
+         console.log(blob);
+         if (blob.size === 0) {
+           return;
+         }
+         var data = new FormData();
+         data.append("image", blob);
+         $.ajax({
+           url: layui.setter.commUrl + "Requirement/zg_image?access_token=" + localStorage.getItem(
+             'access_token') + "&id=" + $("#id").val(),
+           type: 'POST',
+           cache: false,
+           data: data,
+           processData: false,
+           contentType: false,
+           success: function (result) {
+             console.log(result);
+             if (result.code == "0") {
+               console.log(result.msg)
+               var html = "<img src=" + result.data + " width='100' height='100'>";
+               $("#Msg").html(html);
+             } else {
+               console.log(result.msg)
+             }
+           }
+         });
+       }
+     }
+   });
+
+  </script>
+</body>
+</html>

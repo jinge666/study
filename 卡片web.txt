@@ -1,0 +1,455 @@
+{
+  data: function () {
+    return {
+      name: "",
+      appId: "0",
+      time: 0,
+      todoList: [],
+      todoList2:[{
+          "taskId": "4682",
+          "actTaskId": "1133350",
+          "taskName": "管理员的请假流程",
+          "taskDefKey": "A0",
+          "procInsId": "1133301",
+          "procDefId": "1133350",
+          "procDefKey": "WDQINGJAI",
+          "businessTable": "ATT_QINGJIA",
+          "businessId": "937",
+          "businessKey": "ATT_QINGJIA:937",
+          "title": "管理员的请假流程",
+          "formId": "8831",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=17ff5ead9cd744039957d20120b07069",
+          "assignee": null,
+          "assigneeName": "发起人",
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "2个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-07-07T13:15:00.000+0000",
+          "actCreateTimeStr": "2021-07-07 :21:15:00",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=8831&formName=管理员的请假流程&actName=管理员的请假流程&key=WDQINGJAI&orderBy=A0&actTaskId=1133350&taskId=4682&businessId=937&BUSINESSID=937&procInsId=1133301&isInit=true&isupload=true&actstatus=action&menuName=管理员的请假流程&isCreated=true",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=8831&formName=管理员的请假流程&actName=管理员的请假流程&key=WDQINGJAI&orderBy=A0&actTaskId=1133350&taskId=4682&businessId=937&BUSINESSID=937&procInsId=1133301&isInit=true&isupload=true&actstatus=action&menuName=管理员的请假流程&isCreated=true",
+          "isCreated": "true",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4592",
+          "actTaskId": "1102547",
+          "taskName": "管理员的请假流程",
+          "taskDefKey": "A0",
+          "procInsId": "1102501",
+          "procDefId": "1102547",
+          "procDefKey": "WDQINGJAI",
+          "businessTable": "ATT_QINGJIA",
+          "businessId": "920",
+          "businessKey": "ATT_QINGJIA:920",
+          "title": "管理员的请假流程",
+          "formId": "8831",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=17ff5ead9cd744039957d20120b07069",
+          "assignee": null,
+          "assigneeName": "发起人",
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "2个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-07-07T09:10:36.000+0000",
+          "actCreateTimeStr": "2021-07-07 :17:10:36",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=8831&formName=管理员的请假流程&actName=管理员的请假流程&key=WDQINGJAI&orderBy=A0&actTaskId=1102547&taskId=4592&businessId=920&BUSINESSID=920&procInsId=1102501&isInit=true&isupload=true&actstatus=action&menuName=管理员的请假流程&isCreated=true",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=8831&formName=管理员的请假流程&actName=管理员的请假流程&key=WDQINGJAI&orderBy=A0&actTaskId=1102547&taskId=4592&businessId=920&BUSINESSID=920&procInsId=1102501&isInit=true&isupload=true&actstatus=action&menuName=管理员的请假流程&isCreated=true",
+          "isCreated": "true",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4438",
+          "actTaskId": "850006",
+          "taskName": "HRBP的薪酬发放",
+          "taskDefKey": "A3",
+          "procInsId": "847501",
+          "procDefId": "850006",
+          "procDefKey": "LC_DISPATCH",
+          "businessTable": "LC_DISPATCH",
+          "businessId": "73",
+          "businessKey": "LC_DISPATCH:73",
+          "title": "HRBP的薪酬发放",
+          "formId": "9636",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-28T06:58:36.000+0000",
+          "actCreateTimeStr": "2021-03-28 :14:58:36",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=9636&formName=HRBP的薪酬发放&actName=HRBP的薪酬发放&key=LC_DISPATCH&orderBy=A3&actTaskId=850006&taskId=4438&businessId=73&BUSINESSID=73&procInsId=847501&isInit=true&isupload=false&actstatus=action&menuName=HRBP的薪酬发放&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=9636&formName=HRBP的薪酬发放&actName=HRBP的薪酬发放&key=LC_DISPATCH&orderBy=A3&actTaskId=850006&taskId=4438&businessId=73&BUSINESSID=73&procInsId=847501&isInit=true&isupload=false&actstatus=action&menuName=HRBP的薪酬发放&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4432",
+          "actTaskId": "845016",
+          "taskName": "HRBP的录用流程",
+          "taskDefKey": "A3",
+          "procInsId": "842529",
+          "procDefId": "845016",
+          "procDefKey": "LC_REC_HIRE",
+          "businessTable": "LC_REC_HIRE",
+          "businessId": "8",
+          "businessKey": "LC_REC_HIRE:8",
+          "title": "HRBP的录用流程",
+          "formId": "9623",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-28T05:51:31.000+0000",
+          "actCreateTimeStr": "2021-03-28 :13:51:31",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=9623&formName=HRBP的录用流程&actName=HRBP的录用流程&key=LC_REC_HIRE&orderBy=A3&actTaskId=845016&taskId=4432&businessId=8&BUSINESSID=8&procInsId=842529&isInit=true&isupload=false&actstatus=action&menuName=HRBP的录用流程&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=9623&formName=HRBP的录用流程&actName=HRBP的录用流程&key=LC_REC_HIRE&orderBy=A3&actTaskId=845016&taskId=4432&businessId=8&BUSINESSID=8&procInsId=842529&isInit=true&isupload=false&actstatus=action&menuName=HRBP的录用流程&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4367",
+          "actTaskId": "822647",
+          "taskName": "HRBP的岗位增编",
+          "taskDefKey": "A3",
+          "procInsId": "820168",
+          "procDefId": "822647",
+          "procDefKey": "LC_JOB_PLAIT",
+          "businessTable": "LC_JOB_PLAIT",
+          "businessId": "14",
+          "businessKey": "LC_JOB_PLAIT:14",
+          "title": "HRBP的岗位增编",
+          "formId": "9608",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-24T07:06:57.000+0000",
+          "actCreateTimeStr": "2021-03-24 :15:06:57",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=9608&formName=HRBP的岗位增编&actName=HRBP的岗位增编&key=LC_JOB_PLAIT&orderBy=A3&actTaskId=822647&taskId=4367&businessId=14&BUSINESSID=14&procInsId=820168&isInit=true&isupload=false&actstatus=action&menuName=HRBP的岗位增编&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=9608&formName=HRBP的岗位增编&actName=HRBP的岗位增编&key=LC_JOB_PLAIT&orderBy=A3&actTaskId=822647&taskId=4367&businessId=14&BUSINESSID=14&procInsId=820168&isInit=true&isupload=false&actstatus=action&menuName=HRBP的岗位增编&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4287",
+          "actTaskId": "775009",
+          "taskName": "HRBP的离职流程",
+          "taskDefKey": "A3",
+          "procInsId": "772535",
+          "procDefId": "775009",
+          "procDefKey": "empout",
+          "businessTable": "LC_EMPOUT",
+          "businessId": "252",
+          "businessKey": "LC_EMPOUT:252",
+          "title": "HRBP的离职流程",
+          "formId": "7059",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-17T08:27:42.000+0000",
+          "actCreateTimeStr": "2021-03-17 :16:27:42",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=7059&formName=HRBP的离职流程&actName=HRBP的离职流程&key=empout&orderBy=A3&actTaskId=775009&taskId=4287&businessId=252&BUSINESSID=252&procInsId=772535&isInit=true&isupload=false&actstatus=action&menuName=HRBP的离职流程&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=7059&formName=HRBP的离职流程&actName=HRBP的离职流程&key=empout&orderBy=A3&actTaskId=775009&taskId=4287&businessId=252&BUSINESSID=252&procInsId=772535&isInit=true&isupload=false&actstatus=action&menuName=HRBP的离职流程&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4238",
+          "actTaskId": "735019",
+          "taskName": "HRBP的薪酬发放",
+          "taskDefKey": "A3",
+          "procInsId": "732523",
+          "procDefId": "735019",
+          "procDefKey": "LC_DISPATCH",
+          "businessTable": "LC_DISPATCH",
+          "businessId": "63",
+          "businessKey": "LC_DISPATCH:63",
+          "title": "HRBP的薪酬发放",
+          "formId": "9636",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-13T08:32:26.000+0000",
+          "actCreateTimeStr": "2021-03-13 :16:32:26",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=9636&formName=HRBP的薪酬发放&actName=HRBP的薪酬发放&key=LC_DISPATCH&orderBy=A3&actTaskId=735019&taskId=4238&businessId=63&BUSINESSID=63&procInsId=732523&isInit=true&isupload=false&actstatus=action&menuName=HRBP的薪酬发放&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=9636&formName=HRBP的薪酬发放&actName=HRBP的薪酬发放&key=LC_DISPATCH&orderBy=A3&actTaskId=735019&taskId=4238&businessId=63&BUSINESSID=63&procInsId=732523&isInit=true&isupload=false&actstatus=action&menuName=HRBP的薪酬发放&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        },
+        {
+          "taskId": "4235",
+          "actTaskId": "735012",
+          "taskName": "HRBP的岗位增编",
+          "taskDefKey": "A3",
+          "procInsId": "732501",
+          "procDefId": "735012",
+          "procDefKey": "LC_JOB_PLAIT",
+          "businessTable": "LC_JOB_PLAIT",
+          "businessId": "2",
+          "businessKey": "LC_JOB_PLAIT:2",
+          "title": "HRBP的岗位增编",
+          "formId": "9608",
+          "status": "act",
+          "comment": null,
+          "flag": null,
+          "createrPhoto": "/myehr/FileManege/downloadForPrint.action?file=1a914d3511524d2ab3e01cb31107199a",
+          "assignee": null,
+          "assigneeName": null,
+          "prevAssignee": "AA12",
+          "prevAssigneeName": "管理员",
+          "createAgo": "6个月前",
+          "vars": null,
+          "beginDate": null,
+          "endDate": null,
+          "list": null,
+          "isViewProcessPicture": null,
+          "isAllowBatchApprove": null,
+          "isFreeAction": null,
+          "actCreateTime": "2021-03-12T10:23:39.000+0000",
+          "actCreateTimeStr": "2021-03-12 :18:23:39",
+          "actEndTime": null,
+          "path": "http://106.52.8.232:9885/myehr/vue1/#/ChMyehr?formId=9608&formName=HRBP的岗位增编&actName=HRBP的岗位增编&key=LC_JOB_PLAIT&orderBy=A3&actTaskId=735012&taskId=4235&businessId=2&BUSINESSID=2&procInsId=732501&isInit=true&isupload=false&actstatus=action&menuName=HRBP的岗位增编&isCreated=false",
+          "mobilepath": "https://www.shenkeqixiao.cn:444/ChMyehr?formId=9608&formName=HRBP的岗位增编&actName=HRBP的岗位增编&key=LC_JOB_PLAIT&orderBy=A3&actTaskId=735012&taskId=4235&businessId=2&BUSINESSID=2&procInsId=732501&isInit=true&isupload=false&actstatus=action&menuName=HRBP的岗位增编&isCreated=false",
+          "isCreated": "false",
+          "taskCreateDate": null,
+          "taskEndDate": null,
+          "durationTime": "",
+          "todoTask": false,
+          "finishTask": false
+        }],
+      timeList: [
+        { value: 0, lable: "时间", day: Infinity },
+        { value: 1, lable: "近一周", day: 7 },
+        { value: 2, lable: "近两周", day: 14 },
+        { value: 3, lable: "近一月", day: 30 },
+        {
+          value: 4,
+          lable: "自定义时间",
+          day: undefined,
+        },
+        {value: 5, lable: "取消时间筛选"}
+      ],
+      dateStart: "",
+      dateEnd: "",
+      cardHeight: 0,
+      noData:
+        "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjEuMDc2OSA3OC4xOTA0QzE0LjIxNDcgNzkuMzUwNSAxMCA4MC45MjI3IDEwIDgyLjY1MzlDMTAgODYuMjIyNSAyNy45MDg2IDg5LjExNTQgNTAgODkuMTE1NEM3Mi4wOTE0IDg5LjExNTQgOTAgODYuMjIyNSA5MCA4Mi42NTM5QzkwIDgwLjkyMjcgODUuNzg1MyA3OS4zNTA1IDc4LjkyMzEgNzguMTkwNFY4MS4zMTIzQzc4LjkyMzEgODIuOTAyOSA3Ny42MzM3IDg0LjE5MjMgNzYuMDQzMSA4NC4xOTIzSDIzLjk1NjlDMjIuMzY2NCA4NC4xOTIzIDIxLjA3NjkgODIuOTAyOSAyMS4wNzY5IDgxLjMxMjNWNzguMTkwNFoiIGZpbGw9IiNFQ0YxRjMiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMy45NTY5IDE2LjVDMjIuMzY2MyAxNi41IDIxLjA3NjkgMTcuNzg5NCAyMS4wNzY5IDE5LjM4VjgxLjMxMjNDMjEuMDc2OSA4Mi45MDI5IDIyLjM2NjMgODQuMTkyMyAyMy45NTY5IDg0LjE5MjNINzYuMDQzMUM3Ny42MzM2IDg0LjE5MjMgNzguOTIzMSA4Mi45MDI5IDc4LjkyMzEgODEuMzEyM1YxOS4zOEM3OC45MjMxIDE3Ljc4OTQgNzcuNjMzNiAxNi41IDc2LjA0MzEgMTYuNUgyMy45NTY5Wk03NC4xNjY2IDIxLjY2NjdIMjUuODMzM1Y3OS4xNjY3SDc0LjE2NjZWMjEuNjY2N1oiIGZpbGw9IiNFQkYwRjIiLz4KPHJlY3QgeD0iMjEuNTc2OSIgeT0iMTciIHdpZHRoPSI1Ni44NDYyIiBoZWlnaHQ9IjY2LjY5MjMiIHJ4PSIyLjM4IiBzdHJva2U9IiNCNEM2RDEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01OC45NjkxIDMxLjY2NjZDNTkuNzg3NiAzMS42NjY2IDYwLjUyNTQgMzIuMTU5NyA2MC44Mzg1IDMyLjkxNTlDNjEuMTUxNyAzMy42NzIgNjAuOTc4NCAzNC41NDI0IDYwLjM5OTYgMzUuMTIxQzU5LjgyMDcgMzUuNjk5NiA1OC45NTAzIDM1Ljg3MjUgNTguMTk0MyAzNS41NTlDNTcuNDM4MiAzNS4yNDU2IDU2Ljk0NTUgMzQuNTA3NiA1Ni45NDU4IDMzLjY4OTFDNTYuOTQ1OCAzMy4xNTI2IDU3LjE1OSAzMi42MzggNTcuNTM4NSAzMi4yNTg3QzU3LjkxNzkgMzEuODc5NCA1OC40MzI2IDMxLjY2NjQgNTguOTY5MSAzMS42NjY2WiIgZmlsbD0iI0VCRjBGMiIgc3Ryb2tlPSIjQjRDNkQxIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDEuMjY4NSAzMS42NjY3QzQyLjA4NjkgMzEuNjY2NyA0Mi44MjQ3IDMyLjE1OTggNDMuMTM3OCAzMi45MTZDNDMuNDUxIDMzLjY3MjEgNDMuMjc3NyAzNC41NDI1IDQyLjY5ODkgMzUuMTIxMUM0Mi4xMiAzNS42OTk3IDQxLjI0OTYgMzUuODcyNiA0MC40OTM2IDM1LjU1OTJDMzkuNzM3NSAzNS4yNDU3IDM5LjI0NDggMzQuNTA3NyAzOS4yNDUxIDMzLjY4OTJDMzkuMjQ1NiAzMi41NzIxIDQwLjE1MTMgMzEuNjY2NyA0MS4yNjg1IDMxLjY2NjdWMzEuNjY2N1oiIGZpbGw9IiNFQkYwRjIiIHN0cm9rZT0iI0I0QzZEMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNTUuMTIyNiAzOC4wMDY3QzU1LjAwMDYgNDAuNzg1OSA1Mi43MTE5IDQyLjk3NjMgNDkuOTMgNDIuOTc2M0M0Ny4xNDgyIDQyLjk3NjMgNDQuODU5NSA0MC43ODU5IDQ0LjczNzUgMzguMDA2N0g1NS4xMjI2WiIgZmlsbD0iI0VCRjBGMiIgc3Ryb2tlPSIjQjRDNkQxIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik00My4zMzMzIDU2LjI1SDY0LjU4MzIiIHN0cm9rZT0iI0Q5RTRFOCIvPgo8cGF0aCBkPSJNNDMuMzMzMyA2NC4xNjY2SDY0LjU4MzIiIHN0cm9rZT0iI0Q5RTRFOCIvPgo8cGF0aCBkPSJNMzUuNDE2NyA2NC4xNjY3TDM2LjY2NjcgNjUuNDE2N0wzOC43NTAxIDYzLjMzMzQiIHN0cm9rZT0iI0Q5RTRFOCIvPgo8cGF0aCBkPSJNMzUuNDE2NyA1NS44MzMzTDM2LjY2NjcgNTcuMDgzM0wzOC43NTAxIDU1IiBzdHJva2U9IiNEOUU0RTgiLz4KPC9zdmc+Cg==",
+    };
+  },
+  created() {
+        //动态设置数据条数
+     let gridHeightNum = this.card.webLayout.height;
+    //  console.log('gridHeightNum',gridHeightNum)
+    //  let cardHeight = 90 * gridHeightNum + 10 * (gridHeightNum - 1) - 48 - 30;
+    //  console.log('cardHeight',cardHeight)
+    // this.todoPage.page.pageSize = parseInt(cardHeight / 36 ) - 2;
+    // console.log('todoPage.page.pageSize',this.todoPage.page.pageSize)
+    // this.todoPage.page.pageSize = 3
+    let cardHeight = (90 * gridHeightNum + 10 * (gridHeightNum - 1) - 48 - 30)*0.75;
+     this.cardHeight = cardHeight
+    console.log(this.cardHeight)
+    this.initTodoList();
+    this.todoList = this.todoList2
+    
+  },
+  methods: {
+    initTodoList() {
+      // let _url = `/qdgx-card-service/card/query?appId&flowId=&title=&pageIndex=${this.todoPage.page.pageNum}&pageSize=${this.todoPage.page.pageSize}&time=&oId=${this.sdk.userInfo.openId}&eid=${this.sdk.userInfo.eid}`;
+      // this.request({
+      //   url: _url,
+      //   method: "get",
+      // }).then((result) => {
+      //   if (result && result.success) {
+      //     this.todoList =
+      //       result.data && result.data.data ? result.data.data : [];
+      //     console.log(this.todoList);
+      //     this.todoPage.total =
+      //       result.data && result.data.total ? result.data.total : 0;
+
+      //   }
+      // });
+    },
+
+   toDetail(matter) {
+      let url = "";
+      // if (matter.url.indexOf("?") > 0) {
+      //   url = `${matter.url}&appid=${matter.appId}&client_id=${matter.appId}`;
+      // } else {
+      //   url = `${matter.url}?appid=${matter.appId}&client_id=${matter.appId}`;
+      // }
+      // this.getTicket(matter.appId)
+      //   .then((ticket) => {
+      //      window.open(`${url}?ticker=${ticket}`);
+      //   })
+      //   .catch(function (e) {
+      //     console.log("获取ticket失败,e={}", e);
+      //   });
+      //window.open(matter.path)
+      //console.log(matter.path)
+     qing.call('gotoLightApp', {
+        appId: '10243',
+        appName: '签到管理',
+        urlParam: matter.path
+      })
+    },
+
+    filterHandle() {
+      let time, time1, time2;
+      time2 = new Date().getTime();
+      time1 = time2 - this.timeList[this.time].day * 1000 * 60 * 60 * 24;
+      if (this.time === 4) {
+      	 if (this.dateStart === "" || this.dateEnd === "") {
+        		return; 		
+         	}
+        time1 = new Date(this.dateStart).getTime();
+        time2 = new Date(this.dateEnd).getTime();
+        this.time = 0
+      }
+      // time = `${time1}-${time2}`;
+      this.todoList = this.todoList2.filter(item => {
+        let current = new Date(item.actCreateTimeStr).getTime()
+        return (current>time1) && (current<time2)
+      })
+      if(this.time === 5) {
+        this.todoList = this.todoList2
+      }
+      this.dateStart = ''
+      this.dateEnd = ''
+    },
+  },
+  mounted: function () {
+    // 此处填写初始化逻辑
+    this.$refs.cardList.style.height = this.cardHeight + 'px'
+  },
+  watch:{
+    name(val) {
+        if(val){
+          this.todoList = this.todoList2.filter(item =>{
+          return item.taskName.indexOf(val) > -1
+        })
+      }else{
+        this.todoList = this.todoList2
+         this.$nextTick(() => {
+          console.log(this.$refs.cardList)
+          this.$refs.cardList.style.height =  this.cardHeight + 'px'
+        })
+      }
+    }
+  }
+}
